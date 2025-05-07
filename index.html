@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculateur géométrique</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Calculateur géométrique</h2>
+
+  <label for="choix">Choisir une figure ou un solide</label>
+  <select id="choix">
+    <option value="">--Sélectionner--</option>
+    <option value="cercle">Cercle (surface)</option>
+    <option value="carré">Carré (surface)</option>
+    <option value="rectangle">Rectangle (surface)</option>
+    <option value="triangle">Triangle (surface)</option>
+    <option value="cube">Cube (surface et volume)</option>
+    <option value="cylindre">Cylindre (surface et volume)</option>
+    <option value="pyramide">Pyramide (surface et volume)</option>
+    <option value="sphère">Sphère (surface et volume)</option>
+  </select>
+
+  <div class="champ"></div>
+  <button id="calculer">Calculer</button>
+
+  <div class="resultats"></div>
+  <div class="erreur"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
